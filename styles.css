@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    margin-left: 200px; /* Adjust the left spacing for the footer */
+    margin-top: 100px; /* Adjust the left spacing for the footer */    
+    background-color: #fff;
+    font-size: 20px;
+    text-align: left; /* Align all text to the left */
+}
+
+header {
+    background-color: #fff;
+    padding: 0px;
+    text-align: left; /* Align text to the left */
+    margin-left: 20px; /* Adjust the left spacing for the header */
+    font-size: 20px; /* Adjust the font size for the header */
+    margin-bottom: 50px; /* Add a margin at the bottom of the header */
+    line-height: 1.2; /* Adjust the line spacing by changing this value */
+}
+
+section {
+    margin-bottom: 20px; /* Add a margin at the bottom of the section */
+    text-align: left; /* Align text to the left */
+    margin-left: 20px; /* Adjust the left spacing for sections */
+    line-height: 1.2; /* Adjust the line spacing by changing this value */
+}
+
+footer {
+    font-size: 16px;
+    text-align: left; /* Align text to the left */
+    margin-top: 20px;
+    padding: 0px;
+    margin-left: 20px; /* Adjust the left spacing for the footer */
+    background-color: #fff;
+}
+
+/* Add a class to style the image */
+    .align-left {
+    float: left; /* Float the image to the left */
+    margin-left: 0px; /* Add some margin to separate the image from the text */
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Fixed position for the image */
+    .fixed-image {
+    position: fixed;
+    top: 50px; /* Adjust the top position as needed */
+    right: 50px; /* Adjust the right position as needed */
+}
+    
+/* Right-align specific text using a class */
+    .right-align {
+    text-align: right;
+}    
