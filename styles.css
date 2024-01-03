@@ -1,78 +1,81 @@
-/* styles.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honghao Zheng - KU Leuven</title>
+    <!-- You can link to a CSS file for styling here if needed -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
 
-body {
-    font-family: 'Helvetica', sans-serif;
-    margin: 0; /* Remove default margin */
-    padding: 0;
-    margin-left: 200px; /* Adjust the left spacing for the footer */
-    margin-top: 100px; /* Adjust the left spacing for the footer */    
-    background-color: #fff;
-    font-size: 20px;
-    text-align: left; /* Align all text to the left */
-}
+<div class="container">
 
-header {
-    background-color: #fff;
-    padding: 0px;
-    text-align: left; /* Align text to the left */
-    margin-left: 20px; /* Adjust the left spacing for the header */
-    font-size: 20px; /* Adjust the font size for the header */
-    margin-bottom: 20px; /* Add a margin at the bottom of the header */
-    margin-top: 20px; /* 设置section与header之间的上外边距 */
-    line-height: 1.2; /* Adjust the line spacing by changing this value */
-    padding-bottom: 20px; /* 设置section与header之间的下内边距 */
-}
+    <header>
+        <!-- Add an image -->
+        <img class="align-left" src="profile2.jpg" alt="Description of the image" width="222.3" height="333.3">
+        
+        <h1>Honghao Zheng</h1>
+        <!-- <p>Welcome to my personal website!</p> -->
+        <p class="text">
+            I'm a fourth-year PhD candidate in Economics at KU Leuven <a href="https://sites.google.com/view/ioleuven/home">(IO@Leuven)</a>.<br><br>
+            My field of interest are <strong>empirical industrial organization</strong>, <strong>development economics</strong>, and <strong>energy/environmental economics</strong>.<br><br>
+            
+            I study how ﬁrms behave and operate under imperfect factor and product markets and the consequent outcomes.<br>
+            
+        </p>        
+    </header>
 
-section {
-    margin-bottom: 20px; /* Add a margin at the bottom of the section */
-    text-align: left; /* Align text to the left */
-    margin-left: 20px; /* Adjust the left spacing for sections */
-    line-height: 1.2; /* Adjust the line spacing by changing this value */
-}
+<br><br><br>
 
-footer {
-    font-size: 16px;
-    text-align: left; /* Align text to the left */
-    margin-top: 20px;
-    padding: 0px;
-    margin-left: 20px; /* Adjust the left spacing for the footer */
-    background-color: #fff;
-}
+    <section>
+        <h2>Research</h2>
+        <p>
+            Imperfect (Re)allocation in Imperfect Markets: Evidence from China's Pilot Carbon ETS<br>(with <a href="https://www.kuleuven.be/wieiswie/en/person/00044468">Johannes Van Biesebroeck</a>)<br><br>
+            
+            Death by Market Power and the Price of Coal in China<br><br>
+            
+            <!-- Estimating Productivity Spillovers over the Ownership Network<br><br> -->
+            
+            <!-- Dams and Productivity<br><br> -->
+        </p>
+    </section>
 
-/* Add a class to style the image */
-    .align-left {
-    float: left; /* Float the image to the left */
-    margin-left: 0px; /* Add some margin to separate the image from the text */
-    margin-right: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+<br>
+    <section>
+        <h2>Conferences&Workshops</h2>
+        <p>
+            - 2023 APIOC (Asia-Pacific Industrial Organization Conference) @<i>Hong Kong, 2023</i><br><br>
+            
+            - 50th EARIE (European Association for Research in Industrial Economics) @<i>Rome, 2023</i><br><br>
+            
+            - 21st IIOC (International Industrial Organization Conference) @<i>Washington, D.C., 2023</i><br><br>
+            
+            - KU Leuven IO Group Seminars @<i>Leuven, 2019-2023</i><br><br>
+            
+            - 40th IAEE (International Association for Energy Economics) International Conference @<i>Singapore, 2017</i><br><br>
+            
+        </p>
+    </section>
 
-/* Fixed position for the image */
-    .fixed-image {
-    position: fixed;
-    top: 50px; /* Adjust the top position as needed */
-    right: 50px; /* Adjust the right position as needed */
-}
-    
-/* Right-align specific text using a class */
-    .right-align {
-    text-align: right;
-}    
+<br>
 
-/* 设置图片和文字容器的样式 */
-.container {
-display: flex;
-align-items: center;
-}
+    <section>
+        <h2>Contact</h2>
+        <p>
+            Email: <a href="mailto:honghao.zheng@kuleuven.be">honghao.zheng@kuleuven.be</a><br><br>
+            Department of Economics - KU Leuven<br>
+            Naamsestraat 69 - 02.105<br>
+            3000 Leuven, Belgium<br>
+            <!-- LinkedIn: <a href="https://www.linkedin.com/in/your-username/">Your LinkedIn</a><br> -->
+            <!-- GitHub: <a href="https://github.com/your-username">Your GitHub</a> -->
+        </p>
+    </section>
 
-/* 设置图片样式 */
-.image {
-max-width: 100%;
-margin-right: 20px; /* 调整图片和文字之间的间距 */
-}
+    <footer>
+        <p>&copy; 2023 Honghao Zheng. All rights reserved.</p>
+    </footer>
 
-/* 设置文字样式 */
-.text {
-max-width: 80%; /* 调整文字的最大宽度 */
-}
+</div>
+</body>
+</html>
