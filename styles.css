@@ -15,16 +15,16 @@ header {
     background-color: #fff;
     padding: 0px;
     text-align: left; /* Align text to the left */
-    margin-left: 0px; /* Adjust the left spacing for the header */
+    margin-left: 20px; /* Adjust the left spacing for the header */
     font-size: 20px; /* Adjust the font size for the header */
-    margin-bottom: 0px; /* Add a margin at the bottom of the header */
+    margin-bottom: 50px; /* Add a margin at the bottom of the header */
     line-height: 1.2; /* Adjust the line spacing by changing this value */
 }
 
 section {
-    margin-bottom: 0px; /* Add a margin at the bottom of the section */
+    margin-bottom: 20px; /* Add a margin at the bottom of the section */
     text-align: left; /* Align text to the left */
-    margin-left: 0px; /* Adjust the left spacing for sections */
+    margin-left: 20px; /* Adjust the left spacing for sections */
     line-height: 1.2; /* Adjust the line spacing by changing this value */
 }
 
@@ -33,7 +33,7 @@ footer {
     text-align: left; /* Align text to the left */
     margin-top: 20px;
     padding: 0px;
-    margin-left: 0px; /* Adjust the left spacing for the footer */
+    margin-left: 20px; /* Adjust the left spacing for the footer */
     background-color: #fff;
 }
 
@@ -42,39 +42,8 @@ footer {
     float: left; /* Float the image to the left */
     margin-left: 0px; /* Add some margin to separate the image from the text */
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
-}
-
-.image-container {
-    width: 100%;
-    overflow: hidden;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.container {
-    width: 80%; /* 调整为你想要的宽度 */
-    max-width: 1200px; /* 设置一个最大宽度，避免在大屏幕上过度放宽 */
-    margin: 0 auto; /* 设置左右外边距为auto，使容器水平居中 */
-    padding: 20px; /* 可选的内边距，根据需要进行调整 */
-    box-sizing: border-box; /* 让内边距和边框包含在总宽度内 */
-}
-
-@media (max-width: 768px) {
-    .container {
-        width: 90%; /* 在小屏幕上调整宽度 */
-    }
 }
 
 /* Fixed position for the image */
@@ -88,3 +57,20 @@ body, html {
     .right-align {
     text-align: right;
 }    
+
+/* 设置图片和文字容器的样式 */
+.container {
+display: flex;
+align-items: center;
+}
+
+/* 设置图片样式 */
+.image {
+max-width: 100%;
+margin-right: 20px; /* 调整图片和文字之间的间距 */
+}
+
+/* 设置文字样式 */
+.text {
+max-width: 400px; /* 调整文字的最大宽度 */
+}
