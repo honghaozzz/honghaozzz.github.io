@@ -17,8 +17,10 @@ header {
     text-align: left; /* Align text to the left */
     margin-left: 20px; /* Adjust the left spacing for the header */
     font-size: 20px; /* Adjust the font size for the header */
-    margin-bottom: 50px; /* Add a margin at the bottom of the header */
+    margin-bottom: 20px; /* Add a margin at the bottom of the header */
+    margin-top: 20px; /* 设置section与header之间的上外边距 */
     line-height: 1.2; /* Adjust the line spacing by changing this value */
+    padding-bottom: 20px; /* 设置section与header之间的下内边距 */
 }
 
 section {
