@@ -6,7 +6,7 @@ body {
     padding: 0;
     margin-left: 25%; /* Adjust the left spacing for the footer */
     margin-right: 25%;
-    margin-top: 5%; /* Adjust the left spacing for the footer */    
+    margin-top: 2%; /* Adjust the left spacing for the footer */    
     background-color: #fff;
     font-size: 20px;
     text-align: left; /* Align all text to the left */
@@ -73,6 +73,14 @@ footer {
             max-width: 100vh; /* 设置内容的最大宽度 */
             width: 100%; /* 使内容在小屏幕上占据100%的宽度 */
             padding: 0px; /* 设置内边距，增加内容的可读性 */
+        }
+
+        @media only screen and (max-width: 767px) {
+            /* 在小屏幕设备上取消左边距 */
+            body {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
         }
 
 /* 设置图片样式 */
